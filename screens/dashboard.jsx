@@ -137,15 +137,6 @@ function DashboardScreen({ venture, nav }) {
             </div>
           </div>
         </div>
-
-        {/* THE DIVISION — the studio's organizing principle */}
-        <div className="fade-up" style={{ marginTop: 30 }}>
-          <div style={{ display: 'flex', alignItems: 'baseline', gap: 12, marginBottom: 14 }}>
-            <Label>THE DIVISION OF LABOR</Label>
-            <span className="ser" style={{ fontStyle: 'italic', fontSize: 15, color: 'var(--text-mute)' }}>AI does the work. You make the calls.</span>
-          </div>
-          <DivisionPanel />
-        </div>
       </div>
     </div>
   );
